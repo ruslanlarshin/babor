@@ -1,0 +1,35 @@
+.book_navigation a{
+		text-decoration: none !important;
+		cursor:pointer;
+		color: #00a9ee !important;
+		margin-right: 10px;
+	}
+	.book_navigation a .dotted{
+		border-bottom: 1px dotted #00a9ee;
+	}
+	.book_navigation{
+		margin-left: 8px;
+		margin-top: 10px;
+	}
+	.search_stih br{
+		display: none;
+	}
+	.serach_stih_path{
+		cursor:pointer;
+		color:#0600FF;
+	}
+	.serch_book_name{
+		margin-bottom: 5px;
+		margin-top: 15px;
+	}
+	.result_list{
+		margin-left: 8px;
+		margin-top: 20px;
+	}
+	.result_string{
+		margin-top: 20px;
+		margin-left: 8px;
+	}
+	.result_string b{
+		text-transform: uppercase;
+	}

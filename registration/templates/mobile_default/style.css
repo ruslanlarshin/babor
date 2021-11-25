@@ -1,0 +1,64 @@
+.error_notice{
+	font-size: 9px;
+	line-height: 10px;
+	color:#cc5392;
+	width: 100px;
+	margin-left:5px;
+}
+.error_order{
+	border-color:#cc5392 !important;
+}
+.text_reg{
+	text-shadow: 1px 1px 2px rgb(153, 153, 153),5px 4px 5px rgb(153, 153, 153);
+}
+
+.reg_button{
+	position:relative;
+	left: 480px;
+	top: 20px;
+}
+.button{
+	cursor:pointer;
+	/*background: url("/images/TopLine_small.png");*/
+	background-color: #00a9ee;
+	 background: linear-gradient(to top, rgb(216, 238, 253), #00b9cc);
+	box-shadow: rgb(153, 153, 153) 7px 7px 20px 0px;
+	padding-top: 5px;
+	width: 160px;
+	height: 25px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	z-index: 300;
+	box-shadow: rgb(153, 153, 153) 5px 5px 20px 0px;
+}
+.reg_left{
+	width: 270px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: right;
+}
+.reg_right{
+	width: 300px;
+}
+.main_reg{  
+	text-align: center;
+	width: 100%;
+	padding-top: 50px;
+	height: 260px;
+}
+.load{
+	background: url(/images/load.gif) 50% 50px no-repeat;
+}
+.input_reg{
+	padding-left: 10px;
+	width: 300px; 
+	border-color: rgb(216, 238, 253);
+	border-width: 3.5px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	box-shadow: rgb(153, 153, 153) 3px 3px 20px 0px;
+}

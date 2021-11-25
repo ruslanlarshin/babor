@@ -1,0 +1,80 @@
+.update_text{
+	height: 150px;
+}
+
+.img_send_email{
+	width: 30px; 
+	margin-bottom: 5px;
+}
+
+.chat_add_texts,
+.chat_all_text{
+	/*width: 600px;*/
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+
+.chat_add_text:focus{
+	outline: none;
+}
+
+.chat_add{
+	right: -25px;
+	height: 160px !important;
+	width: 95.5% !important;
+	top: -160px;
+	margin-bottom: -130px;
+}
+
+.chat_add_text{
+	position:relative;
+	z-index: 303;
+	width: 96%; 
+	height: 150px;
+	
+	resize: none;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	padding-right: 20px;
+	box-shadow: rgb(153, 153, 153) 1px 1px 5px 1px;
+	background: linear-gradient( #fcfcfc ,#00a9ee 1700%);
+	padding: 20px;
+}
+
+.text{
+	text-align: right;
+	height: 160px;
+	vertical-align: bottom;
+	margin-left: 10px;
+	display: table-cell;
+	width: 10000px;
+}
+
+.button .text{
+	margin: 10px 10px;
+}
+
+.button{
+	text-align: center;
+	position: relative;
+	padding: 3px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	z-index: 203;
+	width: 200px;
+	box-shadow: rgb(153, 153, 153) 1px 1px 5px 1px;
+	background: linear-gradient( #fcfcfc ,#00a9ee 170%);
+
+	cursor: pointer;
+	box-shadow: rgb(153, 153, 153) 7px 7px 20px 0px;
+}
+.error{
+	color: red;
+	text-align:center;
+}
